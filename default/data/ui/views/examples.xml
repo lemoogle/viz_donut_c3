@@ -1,0 +1,34 @@
+<dashboard>
+  <label>Examples</label>
+  <row>
+    <panel>
+      <title>C3.js Donut Chart Examples</title>
+      <viz type="viz_donut_c3.c3donut">
+        <title>C3 Donut Chart</title>
+        <search>
+          <query>| inputlookup radar.csv | table name strength | rename name as Strength</query>
+          <earliest></earliest>
+          <latest></latest>
+        </search>
+        <option name="viz_donut_c3.c3donut.expand">0</option>
+        <option name="viz_donut_c3.c3donut.label_format">%</option>
+        <option name="viz_donut_c3.c3donut.label_show">1</option>
+        <option name="viz_donut_c3.c3donut.label_threshold">.05</option>
+        <option name="viz_donut_c3.c3donut.label_value">ratio</option>
+        <option name="viz_donut_c3.c3donut.legend_position">right</option>
+        <option name="viz_donut_c3.c3donut.legend_show">true</option>
+        <option name="viz_donut_c3.c3donut.tooltip_format">%</option>
+        <option name="viz_donut_c3.c3donut.tooltip_show">1</option>
+        <option name="viz_donut_c3.c3donut.tooltip_value">default</option>
+        <option name="type">viz_donut_c3.c3donut</option>
+        <option name="data">preview</option>
+        <option name="pagerPosition">bottom</option>
+        <option name="managerid">search4</option>
+        <option name="id">view_13361</option>
+        <option name="drilldownRedirect">true</option>
+        <option name="resizable">true</option>
+      </viz>
+    </panel>
+  </row>
+
+</dashboard>
